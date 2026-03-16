@@ -12,10 +12,10 @@ Programming languages can be classified into two major categories:
 High level languages are closer to human language and easier to understand.
 
 Examples:
-C
-C++
-Java
-Python
+- C
+- C++
+- Java
+- Python
 
 ### Low Level Language
 

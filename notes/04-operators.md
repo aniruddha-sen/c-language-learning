@@ -12,11 +12,11 @@ Operators are symbols used to perform operations on variables and values.
 
 ### Arithmetic Operators
 
-+
--
-*
-/
-%
+- `+` Addition  
+- `-` Subtraction  
+- `*` Multiplication  
+- `/` Division  
+- `%` Modulus
 
 Example:
 

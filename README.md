@@ -18,8 +18,9 @@ C-Language-Learning
 │   ├── C03_swap_using_third_variable.c
 │   └── C04_swap_without_third_variable.c
 │
-├── 01_introduction.md
-├── 02_tokens.md
+├── notes
+│   ├── 01_introduction.md
+│   └── 02_tokens.md
 │
 ├── .gitignore
 └── README.md
@@ -48,7 +49,7 @@ More programs will be added as I continue learning topics like operators, contro
 
 Along with code, this repository also contains short notes for revision.
 
-Current notes:
+Current notes (inside the notes folder):
 
 * **01_introduction.md** – basic introduction to C language and programming concepts.
 * **02_tokens.md** – explanation of C tokens such as keywords, variables, constants, and operators.

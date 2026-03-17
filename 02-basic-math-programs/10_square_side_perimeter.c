@@ -6,15 +6,6 @@ Description:
 This program takes the area of a square and displays its perimeter.
 */
 
-/*
-Program: Square Perimeter Calculation
-Author: Aniruddha Sen
-Day: 3
-Description:
-This program calculates the perimeter of a square 
-given its area.
-*/
-
 #include<stdio.h>
 #include<math.h>
 int main() 

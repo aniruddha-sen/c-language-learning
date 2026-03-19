@@ -13,6 +13,9 @@ C provides several types of operators:
 * Logical Operators
 * Assignment Operators
 * Increment and Decrement Operators
+* Bitwise Operators
+* Conditional (Ternary) Operator
+* Special Operators
 
 ---
 
@@ -141,8 +144,76 @@ a--;  // a becomes 10
 
 ---
 
+# Bitwise Operators
+
+Bitwise operators perform operations at the binary (bit) level.
+
+| Operator | Description |
+| -------- | ----------- |
+| &        | Bitwise AND |
+| \|        | Bitwise OR  |
+| ^        | Bitwise XOR |
+| ~        | Bitwise NOT |
+| <<       | Left shift  |
+| >>       | Right shift |
+
+### Example:
+
+```c id="ex6"
+int a = 5;   // 0101
+int b = 3;   // 0011
+
+int result = a & b;  // 0001 (1)
+```
+
+---
+
+# Conditional (Ternary) Operator
+
+The ternary operator is a shorthand way of writing an `if-else` statement.
+
+### Syntax:
+
+```c id="ex7"
+condition ? expression1 : expression2;
+```
+
+### Example:
+
+```c id="ex8"
+int a = 10;
+int b = 5;
+
+int max = (a > b) ? a : b;
+```
+
+---
+
+# Special Operators
+
+Special operators perform specific tasks in C.
+
+### Common Special Operators:
+
+| Operator | Description                    |
+| -------- | ------------------------------ |
+| sizeof   | Returns size of a variable     |
+| &        | Address of operator            |
+| *        | Pointer (dereference) operator |
+| ,        | Comma operator                 |
+
+### Example:
+
+```c id="ex9"
+int a = 10;
+
+printf("Size of a: %lu", sizeof(a));
+```
+
+---
+
 # Summary
 
-Operators are fundamental in C programming as they allow you to perform calculations, comparisons, and logical operations efficiently.
+Operators are fundamental in C programming as they allow you to perform calculations, comparisons, logical decisions, and memory-related operations efficiently.
 
 ---

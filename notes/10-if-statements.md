@@ -17,11 +17,13 @@ C provides the following variations of `if` statements:
 
 ---
 
-# 1. if Statement
+# 1. If Statement
 
 The `if` statement executes a block of code only when the condition is true.
 
-### Syntax:
+It can be used with **either a single statement or a block of statements**.
+
+### Syntax (with block of statements):
 
 ```c id="if_s1"
 if (condition) {
@@ -29,15 +31,38 @@ if (condition) {
 }
 ```
 
-### Example:
+### Syntax (with single statement):
 
 ```c id="if_s2"
+if (condition)
+    statement;
+```
+
+> When only one statement is present, curly braces `{}` are optional.
+
+### Example (with block):
+
+```c id="if_s3"
 int a = 10;
 
 if (a > 0) {
     printf("Positive number");
 }
 ```
+
+### Example (without curly braces):
+
+```c id="if_s4"
+int a = 10;
+
+if (a > 0)
+    printf("Positive number");
+```
+
+### Important Note
+
+Although curly braces are optional for a single statement, it is considered a **good programming practice** to always use them.  
+This improves readability and helps avoid logical errors in future modifications.
 
 ---
 

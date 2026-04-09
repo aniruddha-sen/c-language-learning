@@ -19,10 +19,13 @@ Fixed Monthly Charge: ₹180
 */
 
 #include<stdio.h>
+#include<windows.h>   // Delete this line if using Mac or Linux
 int main() 
 {
     int calls;
     float bill=180;
+    // Delete the line below if using Mac or Linux (they support UTF-8 by default)
+    SetConsoleOutputCP(CP_UTF8);
     printf("Please enter number of calls: ");
     scanf("%d",&calls);
     if(calls<=50)
@@ -41,6 +44,6 @@ int main()
     {
         bill+=(100*1)+(200*1.10)+(calls-350)*1.20;
     }
-    printf("Total Monthly Bill: ₹%.2f\n",bill);
+    printf("Total Monthly Bill: \u20B9%.2f\n",bill);
     return 0;
 }
